@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="outrapag.css">
+  <link rel="shortcut icon" href="ico/logo2.ico" type="image/x-icon">
+</head>
+<body>
+  <h1>Calculadora discreta</h1>
+  <p>O que deseja fazer?:</p>
+  <select id="escolha">
+    <option value="1">Fatorar</option>
+    <option value="2">MMC</option>
+    <option value="3">MDC</option>
+    <option value="4">Par ou ímpar</option>
+    <option value="5">Múltiplo ou não</option>
+    <option value="6">Divisível ou não</option>
+    <option value="7">Primo ou não</option>
+  </select>
+  <br><br>
+  <input type="number" id="num1" placeholder="Digite o primeiro número">
+  <input type="number" id="num2" placeholder="Segundo numero(caso exista)">
+  <button onclick="calcular()">Calcular</button>
+  <p id="resultado"></p>
+  <script src="calculadora.js" defer></script>
+</body>
+</html>
