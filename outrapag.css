@@ -1,0 +1,42 @@
+body{
+    background-color:rgba(9, 9, 110, 0.712);
+    color: antiquewhite;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 30px;
+
+    
+}
+p{
+    font-size: 30px;
+}
+select{
+    color: rgb(41, 112, 218);
+}
+button{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #0056b3;
+}
+select:after{
+    color: #0056b3;
+}
+#num1{
+    background-color: #007bff2a;
+    color: white;
+    border-radius: 15%;
+    border-style:double;
+}
+#num2{
+    background-color: #007bff2a;
+    color: white;
+    border-radius: 15%;
+    border-style:double;
+}
